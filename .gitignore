@@ -1,0 +1,6 @@
+node_modules
+dist
+tunnel.log
+.env
+cuento/
+qr-celular.svg
