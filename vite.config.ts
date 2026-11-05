@@ -1,3 +1,5 @@
+/// <reference types="node" />
+// The config runs in Node, while tsconfig's types are the browser's for the app code.
 import basicSsl from '@vitejs/plugin-basic-ssl';
 import { createHash } from 'node:crypto';
 import { readFileSync, readdirSync, statSync, writeFileSync } from 'node:fs';
